@@ -10,7 +10,7 @@ keywords: git MR PR
 
 ​	首先无论 pull request 还是 merge request 都不是 git 本身的功能，而是 GitHub/GitLab 等服务提供的额外功能。
 
-​	push request 不存在，因为 push 是把你本地的 commit 推到 remote，要么你有权限 push，要么没有，且你没法请别人代你做，因为多数情况下别人没有你本地的 commit。但如果你已经把自己的 commit 给 push 到某处（你有权限的 repo 或分支，且能被其他人访问到），然后想把这些修改合入另一个你没有权限的 repo 或分支，你就可以请求有权限的人帮你 pull 或 merge，所以就有了 pull/merge request。
+​	push request 不存在，因为 push 是把你本地的 commit 推到 remote，要么你有权限 push（比如，我的这个github博客，我有权限push，所以每次写完笔记都直接将本地的commit推到远程仓库。），要么没有，且你没法请别人代你做，因为多数情况下别人没有你本地的 commit。但如果你已经把自己的 commit 给 push 到某处（你有权限的 repo 或分支，且能被其他人访问到），然后想把这些修改合入另一个你没有权限的 repo 或分支，你就可以请求有权限的人帮你 pull 或 merge，所以就有了 pull/merge request。
 
 **pull/merge request** 分别代表了两种不同的工作流程：
 
