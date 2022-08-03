@@ -10,7 +10,7 @@ keywords: git MR PR
 
 在分析PG某个模块的代码之前，最好都先阅读一下它的README文件(如果有)，PG的代码布局非常规范和清晰，几乎所有规模化的模块子系统都有自己单独的子目录，我们在深入了解之前可以通过README来提前了解个大概。
 
-```sql
+```wiki
 src/backend/utils/fmgr/README
 
 Function Manager
